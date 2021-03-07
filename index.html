@@ -5,73 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;700;800;900&display=swap" rel="stylesheet">
     <title>Iván Budnick | Full Stack Developer Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="header__name">
-            <h1>Iván Budnick</h1>
+    <div class="container-fluid">
+        <header>
+        </header>
+        <img id="avatar" src="ivan.png" alt="">
+        <div class="top-info-container">
+            <section id="top">
+                <div class="top-container">
+                    <div class="top__name">
+                        <h1>Iván Budnick</h1>
+                    </div>
+                    <div class="top__description">
+                        <h2>Full-Stack Developer</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="info">
+                <div class="info__title">
+                    <h2>Sobre Mi</h2>
+                </div>
+                <div class="info__description">
+                    <div class="info__description__top">
+                        <p>Mi nombre es Iván Budnick y soy un Desarrollador
+                            Full-Stack.<br /> Autodidacta y en busca de un constante aprendizaje.</p>
+                    </div>
+                    <div class="info__description__bottom">
+                        <p>Dedicado y constante. Con facilidad a la hora de trabajar en equipo y con
+                            intención de integrar equipos donde logre aportar y aprender de ellos
+                        </p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="header__description">
-            <h2>Full-Stack Developer</h2>
-        </div>
-    </header>
-    <section id="info">
-        <div class="info__title">
-            <h2>Sobre Mi</h2>
-        </div>
-        <div class="info__description">
-            <div class="info__description__top">Hola, mi nombre es Iván Budnick y soy un Desarrollador
-                Full-Stack ubicado en Argentina
+        
+        <div class="spacer"></div>
+        <section id="knowledge">
+            <div class="knowledge__title">
+                <h1>Tecnologías</h1>
             </div>
-            <div class="info__description__bottom">
-                Mi manejo en desarrollo es principalmente en el sector Frond-End, pero también con experiencia
-                en Back-End. Autodidacta y en busca de un constante aprendizaje. Convencido en que el trabajo
-                cooperativo siempre llega a mejor puerto
-            </div>
-        </div>
-        <div class="info__img"></div>
-    </section>
-    <section id="knowledge">
-        <div class="knowledge__title">
-            <h2>Tecnologías</h2>
-        </div>
-        <div class="knowledge__info">
+            <div class="knowledge__info">
+                <div class="container-fluid row justify-content-center">
+                    <div class="knowledge__info__languages col-12 col-md-10 col-lg-11 col-xl-9 row justify-content-around">
+                        <div class="outer-languages-box  col-6 col-lg-3">
+                            <div class="languages-box">
+                                <div id="html" class="languages-top-div"></div>
+                                <img src="html.png" alt="">
+                                <h3>HTML</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="outer-languages-box col-6 col-lg-3">
+                            <div class="languages-box ">
+                                <div id="css" class="languages-top-div"></div>
+                                <img src="css.png" alt="">
+                                <h3>CSS</h3>
+                            </div>
+                        </div>
 
-            <div class="knowledge__info__languages">
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>JavaScript</h3>
-                <h3>Python</h3>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="javascript" class="languages-top-div"></div>
+                            <img src="javascript.png" alt="">
+                            <h3>JavaScript</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="python" class="languages-top-div"></div>
+                            <img src="python.png" alt="">
+                            <h3>Python</h3>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="knowledge__info__frameworks col-12 col-md-10 col-lg-11 col-xl-9 row justify-content-around">
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="bootstrap" class="languages-top-div"></div>
+                            <img src="bootstrap.png" alt="">
+                            <h3>Bootstrap</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="sass" class="languages-top-div"></div>
+                            <img src="sass.png" alt="">
+                            <h3>Sass</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="react" class="languages-top-div"></div>
+                            <img src="react.png" alt="">
+                            <h3>React</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="flask" class="languages-top-div"></div>
+                            <img src="flask.webp" alt="">
+                            <h3>Flask</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="selenium" class="languages-top-div"></div>
+                            <img src="selenium.png" alt="">
+                            <h3>Selenium</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="pandas" class="languages-top-div"></div>
+                            <img src="pandas.png" alt="">
+                            <h3>Pandas</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="photoshop" class="languages-top-div"></div>
+                            <img src="photoshop.png" alt="">
+                            <h3>Phtososhop</h3>
+                        </div>
+                        </div>
+                        <div class="outer-languages-box col-6 col-lg-3">
+                        <div class="languages-box">
+                            <div id="ableton" class="languages-top-div"></div>
+                            <img src="ableton.png" alt="">
+                            <h3>Ableton</h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="knowledge__info__frameworks">
-                <h3>Bootstrap</h3>
-                <h3>Sass</h3>
-                <h3>React</h3>
-                <h3>Flask</h3>
-                <h3>Selenium</h3>
-                <h3>Pandas</h3>
+        </section>
+        
+        <div class="spacer"></div>
+        <section id="portfolio">
+            <div class="portfolio__title">
+                <h1>Experiencias <br> Profesionales</h1>
             </div>
-        </div>
-    </section>
-    <section id="portfolio">
-        <div class="portfolio__title">
-            <h2>Experiencias Profesionales</h2>
-        </div>
-        <div class="portfolio__info">
-            <div class="portfolio__info__amed"></div>
-            <div class="portfolio__info__humai"></div>
-        </div>
-    </section>
-    <footer>
-        <div class="footer__title">
-            <h2>Contacto</h2>
-        </div>
-        <div class="footer__info">
-            <h3>ivan.budnick@gmail.com</h3>
-        </div>
-    </footer>
+            <div class="portfolio__info row">
+                <div class="portfolio__info__card col-lg-6">
+                    <div class="card">Hola</div>
+                </div>
+                <div class="portfolio__info__card col-lg-6">
+                    <div class="card">Hola</div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="footer__info">
+                <h3>ivan.budnick@gmail.com</h3>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

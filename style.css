@@ -1,58 +1,283 @@
+
+.container-fluid {
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1{
+    font-weight: bold !important;
+}
+
+h2{
+    font-weight: bold !important;
+}
+
+
 /* /////////////////////// CLASSES /////////////////////// */
 
-header{
-
+header {
+    background-image: url('diagmonds.png');
+    background-color: #00ad23;
+    height: 15rem;
+    position: relative;
+    border-radius: 0 0 10px 10px;
 }
 
-#info{
-
+#top {
+    margin-bottom: 4rem;
 }
 
-#knowledge{
-
+#info {
+    background-image: url('brushed-alum.png');
+    padding: 3rem;
+    margin-bottom: 3rem;
 }
 
-#portfolio{
-
+.spacer{
+    background-image: url('diagmonds.png');
+    background-color: #00ad23;
+    height: 10rem;
+    border-top: 1px solid black;
 }
 
-footer{
-
+#knowledge {
+    
 }
+
+#portfolio {}
+
+footer {}
+
+
 
 /* /////////////////////// SUB CLASSES /////////////////////// */
 
-/* --------------- HEADER --------------- */
+/* --------------- TOP --------------- */
 
-.header__name{
-
+.top__name {
+    margin: 2rem 0 2rem 0;
 }
 
-.header__description{
+.top__description {
+    font-style: italic;
+}
+
+/* ---------- */
+
+#avatar {
+    display: block;
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+    border: 10px solid white;
+    border-bottom-color: transparent;
+    margin: -8rem auto 0 auto;
+    z-index: 0;
 
 }
 
 /* ---------------- INFO ---------------- */
 
-.info__title{
-
+.info__title {
+    margin: 2rem;
 }
 
-.info__description{
-
-}
-
-.info__img{
-
+.info__description {
+    max-width: 800px;
+    margin: auto;
 }
 
 /* ---------- */
 
-.info__description__top{
+.info__description__top {}
+
+.info__description__bottom {}
+
+/* ---------------- KNOWLEDGES ---------------- */
+
+.knowledge__title {
+    margin-top: -3rem;
+    background-color: white;
+    display: inline-block;
+    width: auto;
+    border-radius: 30px;
+    padding: 1.5rem;
+}
+
+.knowledge__info {}
+
+/* ---------- */
+
+.knowledge__info__languages {}
+
+.knowledge__info__frameworks {
+}
+
+.languages-box{
+    background-color: #adad001a;
+    padding: 1rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2rem 0;
+    position: relative;
+    transition: background-color 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+.languages-box:hover{
+    font-weight: bolder;
+    background-color: #d8d8001a;
+    box-shadow: 5px 5px 50px -20px rgba(0,0,0,0.2);
+}
+
+
+.languages-box img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    
+}
+
+.languages-top-div{
+    width: 100%;
+    height: 0.4rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#html{
+    background-image: linear-gradient(to right, #E65100 , #FF6D00);
+}
+
+#css{
+    background-image: linear-gradient(to right, #0277BD , #039BE5);
+}
+
+#javascript{
+    background-image: linear-gradient(to right, #FFD600 , #f3cb06);
+}
+
+#python{
+    background-image: linear-gradient(to right, #0277BD , #0d5a86);
+}
+
+#bootstrap{
+    background-image: linear-gradient(to right, #673AB7 , #6238aa);
+}
+
+#sass{
+    background-image: linear-gradient(to right, #F28EAA , #dd809a);
+}
+
+#react{
+    background-image: linear-gradient(to right, #80DEEA , #74bdc7);
+}
+
+#flask{
+    background-image: linear-gradient(to right, #575751 , #41413d);
+}
+
+#selenium{
+    background-image: linear-gradient(to right, #21A366 , #626262);
+}
+
+#pandas{
+    background-image: linear-gradient(to right, #417198 , #567996);
+}
+
+#photoshop{
+    background-image: linear-gradient(to right, #03A9F4 , #058fcf);
+}
+
+#ableton{
+    background-image: linear-gradient(to right, #37474F , #37474F);
+}
+
+/* ---------------- PORTFOLIO ---------------- */
+
+.portfolio__title {
+    margin-top: -3rem;
+    background-color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 70%;
+    padding-top: 1.5rem;
+}
+
+.portfolio__info {}
+
+/* ---------- */
+
+.portfolio__info__card {
+height: 10rem;
 
 }
 
-.info__description__bottom{
-    
+.card{
+    background-color: aqua;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer__title {}
+
+.footer__info {}
+
+/* ------------------- MEDIA QUERYS ---------------------- */
+
+@media only screen and (min-width: 795px) {
+.portfolio__title{
+    width: auto;
+    padding: 1.5rem;
+}
+}
+
+
+@media only screen and (min-width: 1324px) {
+
+    .top-info-container {
+        display: flex;
+        margin-top: 3rem;
+        justify-content:space-around;
+    }
+
+/* --------------- TOP --------------- */
+
+    #top{
+        width: 40%;
+    }
+
+    .top-container{
+        margin-top: 25%;
+    }
+/* ---------------- INFO ---------------- */
+
+    #info{
+        width: 40%;
+        border-radius: 10px;
+        margin-bottom: 4rem;
+    }
+
+
+
+
+/* ---------------- KNOWLEDGES ---------------- */
+
+.lenguajes-box{
+    margin: 2rem;
+}
+
+/* ---------------- PORTFOLIO ---------------- */
+
+
+/* ---------------- FOOTER ---------------- */
+
 }
 
