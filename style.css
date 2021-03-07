@@ -1,7 +1,7 @@
 
-.container-fluid {
-    font-family: 'Spartan', sans-serif;
-    text-align: center;
+body {
+    font-family: 'Spartan', sans-serif !important;
+    text-align: center !important;
 }
 
 p {
@@ -16,7 +16,6 @@ h2{
     font-weight: bold !important;
 }
 
-
 /* /////////////////////// CLASSES /////////////////////// */
 
 header {
@@ -25,6 +24,7 @@ header {
     height: 15rem;
     position: relative;
     border-radius: 0 0 10px 10px;
+    width: 100%;
 }
 
 #top {
@@ -109,11 +109,18 @@ footer {}
     padding: 1.5rem;
 }
 
-.knowledge__info {}
+.knowledge__info {
+    
+}
 
 /* ---------- */
 
-.knowledge__info__languages {}
+.knowledge__info__languages {
+    
+}
+
+.outer-languages-box{
+}
 
 .knowledge__info__frameworks {
 }
@@ -127,6 +134,8 @@ footer {}
     position: relative;
     transition: background-color 0.5s;
     transition: box-shadow 0.5s;
+    width: 100%;
+    
 }
 
 .languages-box:hover{
@@ -150,6 +159,10 @@ footer {}
     top:0;
     left: 0;
     border-radius: 10px 10px 0 0;
+}
+
+.languages-box h3{
+    margin-top: 1rem;
 }
 
 #html{
@@ -216,12 +229,22 @@ footer {}
 /* ---------- */
 
 .portfolio__info__card {
-height: 10rem;
-
+height: 30rem;
+margin: 3rem 0;
+border: 1px solid black;
 }
 
-.card{
-    background-color: aqua;
+.work-card{
+    background-color: #adad001a;
+    height: 30rem;
+    width: 30rem;
+    margin: auto;
+}
+
+.work-card img{
+height: 10rem;
+display: block;
+margin: auto;
 }
 
 /* ---------------- FOOTER ---------------- */
@@ -281,3 +304,14 @@ height: 10rem;
 
 }
 
+@media only screen and (max-width: 424px) {
+
+h3{
+    font-size: 18px !important;
+}
+
+.portfolio__title{
+    width: 80%;
+}
+
+}
