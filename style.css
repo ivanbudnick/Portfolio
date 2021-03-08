@@ -284,7 +284,7 @@ background-color: rgb(102,120,184);
 #amed {
   height: 8rem;
   display: inline-block;
-    margin: auto;
+  margin: auto;
 }
 
 /* ---------------- LANGUAGES ---------------- */
@@ -362,6 +362,20 @@ border-radius: 5px;
 @media only screen and (max-width: 424px) {
   h3 {
     font-size: 18px !important;
+  }
+
+  .work-card{
+    width: 100%;
+  }
+
+  #amed{
+    width: 90%;
+    margin: auto;
+  }
+
+  #humai{
+    width: 90%;
+    margin: auto;
   }
 
   .portfolio__title {
