@@ -67,6 +67,9 @@ footer {
   font-style: italic;
 }
 
+.top.contacto{
+
+}
 /* ---------- */
 
 #avatar {
@@ -79,6 +82,10 @@ footer {
   border-bottom-color: transparent;
   margin: -8rem auto 0 auto;
   z-index: 0;
+}
+
+.top__contacto h3{
+  margin: 2rem;
 }
 
 /* ---------------- INFO ---------------- */
@@ -112,6 +119,14 @@ footer {
 }
 
 .knowledge__info {
+}
+
+.knowledges-separator{
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.097);
+  width: 60%;
+  margin: auto;
+  box-shadow: 0px 0px 10px 0px rgba(214,214,214,0.12);
 }
 
 /* ---------- */
@@ -241,6 +256,22 @@ footer {
 
 .descripcion{
     margin: 3rem 0;
+}
+
+.desc{
+  width: 50%;
+  margin: auto;
+  height: 2px;
+  border-radius: 100px;
+}
+
+.desc-amed{
+background-color: rgb(102,120,184);
+
+}
+
+.desc-humai{
+  background-color: rgb(245,148,16);
 }
 
 #humai {
